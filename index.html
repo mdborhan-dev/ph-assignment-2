@@ -13,11 +13,13 @@
     <nav class="bg-[#412567] flex justify-between items-center md:py-[24px] md:px-[200px] max-[36rem]:py-[16px] max-[36rem]:px-[20px]">
          <img src="./assets/image.png" alt="" class="max-[36rem]:w-[40%]">
          <ul class="text-white max-[36rem]:hidden">
-            <li class="list-none inline-block mr-8 font-[500]"><a class="no-underline" href="">About</a></li>
+            <li class="list-none inline-block mr-8 font-[500]"><a class="no-underline " href="">About</a></li>
             <li class="list-none inline-block mr-8 font-[500]"><a class="no-underline" href="">Episodes</a></li>
             <li class="list-none inline-block mr-8 font-[500]"><a class="no-underline"href="">Host</a></li>
          </ul>
-         <button class="text-white btn max-[36rem]:hidden">Subscribe <i class="fa-solid fa-arrow-right"></i></button>
+         <button class="text-white btn max-[36rem]:hidden transition-all duration-300 ease-out
+         hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/30">Subscribe <i class="fa-solid fa-arrow-right transition-transform duration-300
+           group-hover:translate-x-1"></i></button>
          <img src="./assets/hamburger-menu.png" alt="" class="md:hidden">
     </nav>
    </header>
@@ -36,8 +38,10 @@
           </p>
 
           <div class="flex flex-row max-[36rem]:flex-row gap-4">
-            <button class="btn"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
-              <button class="border-[#00FF88] text-[#00FF88] border-[1px] rounded-[1000px] py-3 px-5"><i class="fa-regular fa-envelope"></i> Subscribe</button>
+            <button class="btn transition-all duration-300 ease-out
+         hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/30"><i class="fa-brands fa-spotify"></i> Listen On Spotify</button>
+              <button class="border-[#00FF88] text-[#00FF88] border-[1px] rounded-[1000px] py-3 px-5 cursor-pointer transition-all duration-300 ease-out
+         hover:-translate-y-1 hover:shadow-lg hover:shadow-purple-500/30"><i class="fa-regular fa-envelope"></i> Subscribe</button>
           </div>
         </div>
     </section>
@@ -78,7 +82,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             <div id="card-info" class="text-white max-[36rem]:gap-y-6 max-[36rem]:grid-cols-1 grid-cols-3 grid gap-[30px] md:grid-rows-3">
                 <div id="card" class=" rounded-[40px] bg-[#351165]/40 px-10 py-10 max-[36rem]:px-6 max-[36rem]:py-6 md:row-span-2 flex flex-col items-start justify-center border-black border-[1px] max-[36rem]:rounded-3xl">
                     <img src="./assets/headphone.png" alt="" class="">
-                    <h3 class="my-4 text-white text-2xl font-[700]">Premium Audio Quality</h3>
+                    <h3 class="my-4 text-white text-2xl font-[700] transition-transform duration-500 group-hover:scale-110">Premium Audio Quality</h3>
                     <p class="loading[24px]">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
                 <div id="card" class="items-center rounded-[40px] bg-[#351165]/40 px-10 py-10 max-[36rem]:px-6 max-[36rem]:py-6 md:col-span-2 flex flex-col items-start justify-center max-[36rem]:rounded-3xl">
