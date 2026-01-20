@@ -131,7 +131,7 @@ Join thousands of young professionals and tech enthusiasts who start their day w
             </div>
             <div id="host">
                 <h1 class="text-5xl font-[700] max-[36rem]:text-[32px] text-center text-white md:mb-10 max-[36rem]:mb-6">Meet The Host</h1>
-                <div id="hostinfo" class="bg-[#351165]/40 rounded-[40px] max-[36rem]:mx-5 max-[36rem]:rounded-[24px]">
+                <div id="hostinfo" class="bg-[#351165]/40 rounded-[40px] max-[36rem]:mx-5 max-[36rem]:rounded-[24px] max-[36rem]:mb-10">
                     <div class="flex gap-6 items-center p-10 max-[36rem]:flex-col ">
                         <img src="./assets/host.png" alt="">
                         <div>
@@ -151,12 +151,18 @@ Join thousands of young professionals and tech enthusiasts who start their day w
     </section>
    </main>
    <footer>
-    <section class="bg-[url(./assets/footer-bg.png)]">
-        <img src="./assets/image.png" alt="">
-        <div>
-
+    <section class="relative min-h-[412px] max-[36rem]:min-h-[248px]">
+         <img src="/assets/footer-bg.png" alt="" class="absolute inset-0 w-[100%] h-full object-cover z-0"/>
+        <div class="sm:p-[120px] relative z-10 flex-col flex justify-center items-center text-center sm:gap-8 max-[36rem]:gap-6 max-[36rem]:px-5 max-[36rem]:py-10"> 
+        <img src="./assets/image.png" alt="" class="">
+        <div class="text-white font-[500] grid grid-cols-4 max-[36rem]:grid-cols-2 max-[36rem]:gap-4">
+            <a href=""><i class="fa-brands fa-spotify"></i> Spotify</a>
+            <a href=""><i class="fa-solid fa-podcast"></i> Apple Poscasts</a>
+            <a href=""><i class="fa-brands fa-youtube"></i> YouTube</a>
+            <a href=""><i class="fa-brands fa-twitter"></i> Twitter</a>
         </div>
-        <p><small>&copy; 2026 TechWave Podcast. All rights reserved.</small></p>
+        <p class="text-white"><small>&copy; 2026 TechWave Podcast. All rights reserved.</small></p>
+        </div>
     </section>
    </footer>
 </body>
